@@ -1,0 +1,24 @@
+{
+  "name": "qs-repair",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.2.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-sass": "^3.4.1",
+    "flaticon": "^0.1.0",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
+    "popper.js": "^1.16.1",
+    "rails-erb-loader": "^5.5.2",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
+}
