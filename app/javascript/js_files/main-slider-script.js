@@ -1,13 +1,12 @@
 
-	var tpj=jQuery;                  
+    var tpj=jQuery;                  
     var revapi486;
     tpj(document).ready(function() {
-        // debugger
         if(tpj("#rev_slider_one").revolution == undefined){
-            
+            revslider_showDoubleJqueryError("#rev_slider_one");
         }else{
             revapi486 = tpj("#rev_slider_one").show().revolution({
-			sliderType:"standard",
+            sliderType:"standard",
                 jsFileLocation:"plugins/revolution/js/",
                 sliderLayout:"fullwidth",
                 dottedOverlay:"yes",
@@ -81,7 +80,7 @@
          }
 
          if(tpj("#rev_slider_two").revolution == undefined){
-            
+            revslider_showDoubleJqueryError("#rev_slider_two");
         }else{
             revapi486 = tpj("#rev_slider_two").show().revolution({
             sliderType:"standard",

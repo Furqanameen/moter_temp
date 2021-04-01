@@ -1,1 +1,4 @@
-console.log("files loaded")
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel();
+
+});
