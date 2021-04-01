@@ -1,0 +1,19 @@
+<h1>all social</h1>
+<table class= table >
+   <thead  class="thead-dark">
+      <tr>
+        <th>ID</th>
+        <th>title</th>
+        <th>description</th>
+        <th>image</th>
+
+        
+      </tr>
+    </thead>
+    <% @slider.each do |slider| %>
+
+     <%= render 'table', slider: slider %>
+     
+     <% end %>
+</table>
+<%= link_to 'new', new_slider_path %>

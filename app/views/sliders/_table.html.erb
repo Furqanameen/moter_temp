@@ -1,0 +1,9 @@
+<tr>
+    <td><%= slider.id %></td>
+    <td><%= slider.title %></td>
+    <td><%= slider.description %></td>
+    <td><%= image_tag (slider.image) %></td>
+    <td><%= link_to 'Show', slider_path(slider) %></td>
+    <td><%= link_to 'Edit', edit_slider_path(slider)%></td>
+    <td><%= link_to 'Destroy', slider_path(slider), method: :delete %></td>
+  </tr>

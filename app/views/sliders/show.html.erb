@@ -1,0 +1,18 @@
+<h1>show slider </h1>
+<p>
+	<strong>title:</strong>
+	<%#binding.pry%>
+	<%= @slider.title %>
+</p>
+<p>
+	<strong>description:</strong>
+	<%= @slider.description %>
+
+</p>
+
+<p>
+	<strong>image:</strong>
+	<%=  image_tag (@slider.image) %>
+</p>
+<%= link_to 'Edit', edit_slider_path %>
+<%= link_to 'Back', sliders_path %>

@@ -39,4 +39,5 @@ require("js_files/validate")
 require("js_files/wow")
 
 import "@fortawesome/fontawesome-free/js/all";
+import "@fortawesome/fontawesome-free/css/all";
 

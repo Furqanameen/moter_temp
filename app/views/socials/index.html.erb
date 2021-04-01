@@ -1,0 +1,20 @@
+<h1>all social</h1>
+<table class= table >
+   <thead  class="thead-dark">
+      <tr>
+        <th>ID</th>
+        <th>facebook_links</th>
+        <th>twitter_links</th>
+        <th>google_links</th>
+        <th>pinterest_links</th>
+        <th>dribbble_links</th>
+      </tr>
+    </thead>
+    <%#binding.pry%>
+    <% @social.each do |social| %>
+
+      <%= render 'table', social: social %>
+     
+      <% end %>
+ </table>
+ <%= link_to 'new', new_social_path %>

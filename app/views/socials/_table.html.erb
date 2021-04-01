@@ -1,0 +1,17 @@
+<tr>
+	<td><%= social.id %></td>
+	<td><%= social.facebook_links %></td>
+	<td><%= social.twitter_links %></td>
+	<td><%= social.google_links %></td>
+	<td><%= social.pinterest_links %></td>
+	<td><%= social.dribbble_links %></td>
+
+	<%# if social&.image&.attached? %>
+		<!-- <td class="image-resize"><%#=image_tag(social&.image) %></td> -->
+	<%# else %>
+	<!-- <td>Image not found</td> -->
+	<%# end -%>
+	<td><%= link_to 'Show', social_path(social) %></td>
+    <td><%= link_to 'Edit', edit_social_path(social)%></td>
+    <td><%= link_to 'Destroy', social_path(social), method: :delete %></td>
+</tr>

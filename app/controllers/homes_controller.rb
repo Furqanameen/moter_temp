@@ -3,8 +3,12 @@ class HomesController < ApplicationController
 
   # GET /homes or /homes.json
   def index
-    @homes = Home.all
+    # binding.pry
     @social = Social.all
+    @contact = Contact.all
+    @menu = Menu.all
+    @homes = Home.all
+    @sliders = Slider.all
   end
 
   # GET /homes/1 or /homes/1.json

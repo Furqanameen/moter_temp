@@ -1,0 +1,20 @@
+<h1>all contacts</h1>
+<table class= table >
+   <thead  class="thead-dark">
+      <tr>
+        <th>ID</th>
+        <th>email</th>
+        <th>working hours</th>
+        <th>address</th>
+        <th>show</th>
+        <th>edit</th>
+        <th>destroy</th>
+      </tr>
+    </thead>
+      <% @contact.each do |contact| %>
+
+      <%= render 'table', contact: contact %>
+     
+      <% end %>
+ </table>
+ <%= link_to 'new', new_contact_path %>

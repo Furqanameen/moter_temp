@@ -1,0 +1,18 @@
+<%= form_for(@slider) do |form| %>
+	<div class="field">
+      <%= form.label :title %>
+      <%= form.text_field :title ,id: "title_field"%>
+    </div>
+
+    <div class="field"><br>
+      <%= form.label :description %>
+      <%= form.text_area :description ,id: "description_field" %>
+    </div>
+
+    <div class="form-group">
+      <%= form.file_field :image%>
+    </div>
+
+    <div class="actions"><br>
+      <%= form.submit class: "btn btn-danger" %>
+<% end %>
