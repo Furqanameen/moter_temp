@@ -37,6 +37,20 @@ require("js_files/owl")
 require("js_files/script")
 require("js_files/validate")
 require("js_files/wow")
+require("ckeditor/config")
+
+// require("plugins/revolution/js/extensions/revolution.extension.actions.min")
+// require("plugins/revolution/js/extensions/revolution.extension.carousel.min")
+// require("plugins/revolution/js/extensions/revolution.extension.kenburn.min")
+// require("plugins/revolution/js/extensions/revolution.extension.layeranimation.min")
+// require("plugins/revolution/js/extensions/revolution.extension.migration.min")
+// require("plugins/revolution/js/extensions/revolution.extension.navigation.min")
+// require("plugins/revolution/js/extensions/revolution.extension.parallax.min")
+// require("plugins/revolution/js/extensions/revolution.extension.slideanims.min")
+// require("plugins/revolution/js/extensions/revolution.extension.video.min")
+// require("plugins/revolution/js/extensions/jquery.themepunch.revolution.min")
+// require("plugins/revolution/js/extensions/jquery.themepunch.tools.min")
+
 
 import "@fortawesome/fontawesome-free/js/all";
 import "@fortawesome/fontawesome-free/css/all";
